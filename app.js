@@ -31,7 +31,7 @@ app.use("/api/v1",user)
 app.use("/api/v1",payments)
 app.use("/api/v1",other)
 app.get("/",(req,res)=>{
-    res.send(`<h1>Site is Working fine, Visit on <a href=${process.env.FRONTEND_URL}></a></h1>`)
+    res.send(`<h1>Site is Working fine, Visit on <a href=${process.env.FRONTEND_URL}>Click Here</a></h1>`)
 })
 
 export default app
